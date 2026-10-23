@@ -7,12 +7,12 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <title>VORA Elite | El Lujo Urbano Redefinido</title>
+    <title>VAKSAR Elite | El Lujo Urbano Redefinido</title>
     <meta name="description"
-        content="VORA Elite: Calzado exclusivo y streetwear de lujo en Venezuela. Colecciones limitadas para quienes dominan el asfalto.">
+        content="VAKSAR Elite: Calzado exclusivo y streetwear de lujo en Venezuela. Colecciones limitadas para quienes dominan el asfalto.">
 
     <!-- Open Graph for Social Sharing -->
-    <meta property="og:title" content="VORA Elite | Streetwear Premium">
+    <meta property="og:title" content="VAKSAR Elite | Streetwear Premium">
     <meta property="og:description" content="Diseño vanguardista. Construcción premium. El estatus no se negocia.">
     <meta property="og:type" content="website">
 
@@ -184,7 +184,7 @@
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center justify-center sm:justify-start w-full sm:w-auto">
                     <a href="#" class="font-display font-bold text-3xl tracking-tighter uppercase">
-                        VORA<span class="text-vora-darkchrome">.</span>
+                        VAKSAR<span class="text-vora-darkchrome">.</span>
                     </a>
                 </div>
 
@@ -1489,7 +1489,7 @@
                 <div class="col-span-1 md:col-span-2">
                     <a href="#"
                         class="font-display font-bold text-4xl tracking-tighter uppercase mb-6 block text-white">
-                        VORA<span class="text-white">.</span>
+                        VAKSAR<span class="text-white">.</span>
                     </a>
                     <p class="text-gray-400 max-w-sm font-medium leading-relaxed">
                         Curaduría de calzado urbano y de gala de élite. Proveemos exclusividad sin compromisos para
@@ -1783,7 +1783,7 @@
             }
 
             const addonChecked = document.getElementById('qv-addon').checked;
-            let msg = `Hola VORA Elite, deseo comprar el modelo [${currentQVProduct}] en talla [${sizeSelect.value}].`;
+            let msg = `Hola VAKSAR Elite, deseo comprar el modelo [${currentQVProduct}] en talla [${sizeSelect.value}].`;
             if (addonChecked) {
                 msg += ` Además, agregaré el Kit de Protección VIP (+$15).`;
             }
@@ -1935,7 +1935,7 @@
             }
             let size = inputField ? inputField.value.trim() : "Única";
 
-            const rawMessage = `Hola VORA Elite, deseo comprar el modelo [${productName}] en talla [${size}].`;
+            const rawMessage = `Hola VAKSAR Elite, deseo comprar el modelo [${productName}] en talla [${size}].`;
             const phoneNumber = "584223794800";
             const encodedMessage = encodeURIComponent(rawMessage);
             const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
@@ -1948,12 +1948,12 @@
             }
 
             // Mapeo crudo requerido por el prompt de IA: 
-            // "Hola VORA Elite, deseo comprar los modelos [VORA Apex Obsidian, VORA Stardust Chrome] en tallas [41, 38]."
+            // "Hola VAKSAR Elite, deseo comprar los modelos [VORA Apex Obsidian, VORA Stardust Chrome] en tallas [41, 38]."
 
             const models = cart.map(item => item.name).join(', ');
             const sizes = cart.map(item => item.size).join(', ');
 
-            const rawMessage = `Hola VORA Elite, deseo comprar los modelos [${models}] en tallas [${sizes}].`;
+            const rawMessage = `Hola VAKSAR Elite, deseo comprar los modelos [${models}] en tallas [${sizes}].`;
 
             // Asumiendo un número genérico para el checkout por ahora (el cliente controla el backend)
             // Cambiar "1234567890" por la variable de entorno real o num de WhatsApp.
